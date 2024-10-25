@@ -2,7 +2,7 @@
 
 - Go to the FEC's [bulk data page](https://www.fec.gov/data/browse-data/?tab=bulk-data).
 - Choose the `Contributions by individuals` tab.
-- Download a recent archive, probably `indiv24.zip`. Put it in `data/` relative to this script.
+- Download a recent archive, probably `indiv24.zip`. Put it in `data/` relative to this script and unpack it. Make sure `data/itcont.txt` exists.
 - `ruby go.rb > report.txt`
 
 ## What's in the report?
